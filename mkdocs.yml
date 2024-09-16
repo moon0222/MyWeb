@@ -1,6 +1,22 @@
 site_name: Fish's Notebook
 theme:
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
   name: material
+  language: zh
+  palette:
+    primary: light green
+    toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
 
 markdown_extensions:
   - pymdownx.highlight:

@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# **失去的一年**
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+在刚进入大学的时候，老师推荐了一门课 " The missing semester of cs education "，如果让我总结过去的一年的话，我可能会取个标题叫做 “失去的大二”
 
-## Commands
+中文互联网有的时候会调侃，中国人处处关键的一生。在我看来，人生的每一个选择，都导向更加确定的结局。虽说从结局的角度看并未有不同，但是依然会遗憾。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+过去的一年里，我固步自封，守着自己可怜的自尊，却终于导向暴露的事实--我不得不面对的事实。
 
-## Project layout
+感谢我的同学，她们的热情为我点亮了些许前路，在她们面前，无知也不再那么可怕，她们向我展示出生活新的可能。
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+开眼看世界，开卷有益处。

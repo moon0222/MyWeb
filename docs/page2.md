@@ -2,16 +2,16 @@
 
 ## Chapter 2
 ### IA-32 Basic Executuion Environment
-![alt text](image.png)
+![alt text](./page2.assets/image.png)
 
 ### 64-Bit Mode Execution Environment
-![alt text](image-1.png)
+![alt text](./page2.assets/image-1.png)
 
 ### General-Purpose Registers
 RAX - a 64-bit register (RAX), a 32-bit register (accumulator) (EAX), a 16-bit register (AX), or as either of two 8-bit registers (AH and AL).
-![alt text](image-2.png)
+![alt text](./page2.assets/image-2.png)
 memory protection but may cause false dependence
-![alt text](image-3.png)
+![alt text](./page2.assets/image-3.png)
 
 RBX, addressable as RBX, EBX, BX, BH, BL.
 > BX register (base index) sometimes holds offset address of a location in the memory system in all versions of the microprocessor
@@ -36,6 +36,17 @@ RSI used as RSI, ESI, or SI.
 > like RDI, RSI also functions as a general- purpose register
 
 R8 - R15 found in the Pentium 4 and Core2 if 64-bit extensions are enabled. For most instructions, access to the extended GPRs requires a REX prefix.
+
+In 64-bit mode, general-purpose registers include:
+> 16 8-bit low-byte registers: AL, BL, CL, DL, SIL, DIL, BPL, SPL, R8B-R15B
+
+> 4 8-bit high-byte registers: AH, BH, CH, DH, addressable only when no REX prefix is used
+
+> 16 16-bit registers: AX, BX, CX, DX, DI, SI, BP, SP, R8W-R15W
+
+> 16 32-bit registers: EAX, EBX, ECX, EDX, EDI, ESI, EBP, ESP, R8D-R15D
+
+> 16 64-bit registers: RAX, RBX, RCX, RDX, RDI, RSI, RBP, RSP, R8-R15
 
 ### Special-Purpose Registers
 
@@ -91,25 +102,24 @@ RFLAGS indicate the condition of the microprocessor and control its operation.
 
 ### Segment Registers
 
-> CS (code) segment holds code (programs and procedures) used by the microprocessor.
+CS (code) segment holds code (programs and procedures) used by the microprocessor.
 
-> DS (data) contains most data used by a program.
->> Data are accessed by an offset address or contents of other registers that hold the offset address
+DS (data) contains most data used by a program.
+> Data are accessed by an offset address or contents of other registers that hold the offset address
 
-> ES (extra) an additional data segment used by some instructions to hold destination data.
+ES (extra) an additional data segment used by some instructions to hold destination data.
 
 ......
 
-In 64-bit mode, general-purpose registers include:
-> 16 8-bit low-byte registers: AL, BL, CL, DL, SIL, DIL, BPL, SPL, R8B-R15B
+### Memory Managemnet Requirements
 
-> 4 8-bit high-byte registers: AH, BH, CH, DH, addressable only when no REX prefix is used
+#### Relocation
 
-> 16 16-bit registers: AX, BX, CX, DX, DI, SI, BP, SP, R8W-R15W
+logical address and physical address
 
-> 16 32-bit registers: EAX, EBX, ECX, EDX, EDI, ESI, EBP, ESP, R8D-R15D
+Segmentation and Paging
 
-> 16 64-bit registers: RAX, RBX, RCX, RDX, RDI, RSI, RBP, RSP, R8-R15
+##### Real Mode memeory addressing
 
-
+![image-20240920112422414](./page2.assets/image-20240920112422414.png)
 

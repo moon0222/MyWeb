@@ -82,15 +82,17 @@ passband 特定频率范围内的信号能够有效传输的频带
 
 
 
-**The Maximum Data Rate of a Channel**  ?
+#### **The Maximum Data Rate of a Channel**  
 
 Nyquist's theorem
+
 * Maximum data rate = 2 Blog~2~ V bits/sec
 * 为了避免失真，信号的采样频率必须至少是信号带宽（最高频率成分）的两倍。
 * V 是信号的离散电平数量。这指的是信号在传输过程中可以取的不同值或状态数量。
 * 就是传来了一个信号，我对它进行 2B 的采样，（将模拟信号转化成数字信号）每个采样点的信号代表了 log2 V bit
 
 Shannon’s formula for capacity of a noisy channel
+
 * Maximum data rate = B log~2~ (1 + S/N) bits/sec
 * S/N 信噪比
 

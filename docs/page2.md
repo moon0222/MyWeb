@@ -123,3 +123,17 @@ Segmentation and Paging
 
 ![image-20240920112422414](./page2.assets/image-20240920112422414.png)
 
+
+
+
+### 2-6 Memory Paging
+
+Effective addresses, or segment offsets
+
+Logical addresses
+
+Linear (virtual) addresses
+
+Physical addresses
+
+![image-20240927102351697](./page2.assets/image-20240927102351697.png)

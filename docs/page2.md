@@ -137,3 +137,55 @@ Linear (virtual) addresses
 Physical addresses
 
 ![image-20240927102351697](./page2.assets/image-20240927102351697.png)
+
+## Chapter 3 – Addressing Modes
+
+–16-bit modes (real, vm86, protected): default address and operand-size are 16-bit
+
+–32-bit protected mode (protected): default address and operand-size are 32-bit
+
+–64-bit mode: default address size is 64-bit, default operand-size is 32-bit
+
+### DATA ADDRESSING MODES
+
+![image-20240929101541554](./page2.assets/image-20240929101541554.png)
+
+#### operands
+
+![image-20240929102126961](./page2.assets/image-20240929102126961.png)
+
+##### immediate operand
+
+If necessary, add **a leading zero** to distinguish between **symbols** and **hexadecimal numbers** that start with a letter. E.g.,
+–MOV AX, F2H ；load a label named F2H
+–MOV AX, 0F2H ；load a hexadecimal F2H
+
+MOV AX 'BX' - Copies ASCII **BA** into AX
+
+##### Register operands
+
+操作数宽度要一致
+
+##### memory operand
+
+Effective Address = Base + (Scale×Index) + Disp
+
+###### Direct Data Addressing (Disp)
+
+MOV AL, [1234H]
+
+###### –Register Indirect Addressing (Base)
+
+MOV AX, [BX]
+
+###### –Base-Plus-Index Addressing (Base + Insdex)
+
+MOV DX,[BX + DI]
+
+–Register Relative Addressing (Base/Index + Disp)
+
+###### –Base Relative-Plus-Index Addressing (Base + Index + Disp)
+
+MOV AX, [BX + SI + 100H].
+
+–Scaled-Index Addressing (Base+Scale+Index+Disp)

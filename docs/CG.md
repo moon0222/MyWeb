@@ -92,6 +92,25 @@ OpenGL is a state machine
 
 Colors -RGB
 
+### Linear Transformation
+
+[x,y] -> [x',y',a] \
+[x,y] -> [x ,y ,1]
+
+可以表示平移了
+
+#### Shearing
+
+x = x + ay \
+y = y \
+z = z
+
+#### Transformation in OpenGL
+
+```c
+glMatrixMode(GL_MODEVIEW);
+glLoadIdentity();
+
 
 
 

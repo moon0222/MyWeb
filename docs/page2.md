@@ -182,10 +182,50 @@ MOV AX, [BX]
 
 MOV DX,[BX + DI]
 
-–Register Relative Addressing (Base/Index + Disp)
+###### –Register Relative Addressing (Base/Index + Disp)
 
 ###### –Base Relative-Plus-Index Addressing (Base + Index + Disp)
 
 MOV AX, [BX + SI + 100H].
 
-–Scaled-Index Addressing (Base+Scale+Index+Disp)
+###### –Scaled-Index Addressing (Base+Scale+Index+Disp)
+
+![image-20240929113241813](./page2.assets/image-20240929113241813.png)
+
+
+
+Base: any 32-bit register
+–Index: any 32-bit register except ESP
+–Disp: 8-bit/16-bit/32-bit
+
+### PROGRAM MEMORY-ADDRESSING MODES
+
+Two different types of jump offset:
+
+–relative offset
+
+JMP start
+
+–absolute offset
+
+JMP AX (以当前的代码段为基地址)
+
+Four different types of jumps:
+–short jump
+
+-128 - +127
+
+–near jump
+
+within the current code segement 
+
+–far jump
+
+different segement
+
+–task switch
+
+
+
+
+

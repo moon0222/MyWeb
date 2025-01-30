@@ -2,7 +2,6 @@ site_name: Fish's Web
 site_url: https://web.moon0222.cc/
 repo_name: moon0222/MyWeb  #存储库名称，一般自动设置
 repo_url: https://github.com/moon0222/MyWeb/  #存储库URL
-# edit_uri: tree/master/docs  #每个文档的顶部显示一个编辑按钮，""则隐藏
 site_description: Fish's Web
 remote_branch: main
 copyright: |
@@ -12,7 +11,7 @@ theme:
   language: zh
   logo: log.ico
   favicon: log.ico
-  custom_dir: overrides
+  #custom_dir: overrides
   features:
     - content.code.annotate
     - navigation.tracking
@@ -93,7 +92,7 @@ extra_javascript:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/HobbitQia/
+      link: https://github.com/moon0222/
 
 plugins:
   - changelog

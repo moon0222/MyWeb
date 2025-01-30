@@ -1,6 +1,6 @@
 site_name: Fish's Web
-site_url: https://note.hobbitqia.cc/
-repo_name: HobbitQia/notebook  #存储库名称，一般自动设置
+site_url: https://web.moon0222.cc/
+repo_name: moon0222/MyWeb  #存储库名称，一般自动设置
 repo_url: https://github.com/moon0222/MyWeb/  #存储库URL
 # edit_uri: tree/master/docs  #每个文档的顶部显示一个编辑按钮，""则隐藏
 site_description: Fish's Web

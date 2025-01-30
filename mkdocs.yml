@@ -11,7 +11,7 @@ theme:
   language: zh
   logo: log.ico
   favicon: log.ico
-  #custom_dir: overrides
+  # custom_dir: overrides
   features:
     - content.code.annotate
     - navigation.tracking
@@ -70,44 +70,44 @@ markdown_extensions:
       generic: true
 
 
-extra_css:
-  - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css
-  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
-  - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
-  - css/custom.css
-  - css/card.css
-  - css/tasklist.css
-  - css/flink.css
-  - css/more_changelog.css
+# extra_css:
+#   - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css
+#   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
+#   - https://gcore.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css
+#   - css/custom.css
+#   - css/card.css
+#   - css/tasklist.css
+#   - css/flink.css
+#   - css/more_changelog.css
   
 
-extra_javascript:
-  - js/baidu-tongji.js
-  - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js
-  - js/katex.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+# extra_javascript:
+#   - js/baidu-tongji.js
+#   - https://gcore.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js
+#   - js/katex.js
+#   - https://polyfill.io/v3/polyfill.min.js?features=es6
+#   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+#   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/moon0222/
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/moon0222/
 
-plugins:
-  - changelog
-  - search
-  - git-revision-date-localized:
-      type: datetime
-      timezone: Asia/Shanghai
-      locale: zh
-      enable_creation_date: true
-      exclude:
-        - index.md
-        - comming.md
-        - link.md
-        - tech_accu/index.md
-        - cour_note/index.md
+# plugins:
+#   - changelog
+#   - search
+#   - git-revision-date-localized:
+#       type: datetime
+#       timezone: Asia/Shanghai
+#       locale: zh
+#       enable_creation_date: true
+#       exclude:
+#         - index.md
+#         - comming.md
+#         - link.md
+#         - tech_accu/index.md
+#         - cour_note/index.md
 
 nav:
   - Home:
